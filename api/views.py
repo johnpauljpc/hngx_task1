@@ -24,8 +24,8 @@ class InfoAPIView(APIView):
         # Create the response JSON
         response_data = {
             'slack_name': slack_name,
-            'current_day_of_week': current_day_of_week,
-            'current_utc_time': current_utc_time,
+            'current_day': current_day_of_week,
+            'utc_time': current_utc_time,
             'track': track,
             'github_file_url': github_file_url,
             'github_repo_url': github_repo_url,
